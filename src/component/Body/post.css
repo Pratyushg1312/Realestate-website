@@ -1,0 +1,82 @@
+.post{
+    background-color: white;
+    display: flex;
+   flex-direction: row;
+    justify-content:center;
+    flex-wrap: wrap;
+}
+.postbox{
+    background-color:whitesmoke;
+    margin: 10px;
+    height: 32vh;
+    width: 90%;
+   border-radius: 5px;
+    display: flex;
+    box-shadow: 4px 4px 8px 0px #888888;
+    overflow: hidden;
+    cursor: pointer;
+    
+}
+.postbox:hover{
+    border: 5px black;
+}
+.propimg{
+    
+    flex: 1 ;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.propimg img{
+    height: 40vh;
+    border-radius: 5px;
+}
+.propinfo{
+    flex:2;
+    padding: 4px;
+    
+}
+.propname{
+    display: flex;
+    flex-direction: column;
+}
+.propname #name{
+    color: black;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.propname #location{
+    color: grey;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5vw;
+}
+.block1{
+    display: flex;
+    justify-content: space-between;
+}
+.proprent #rent{
+    color: black;
+    font-weight: bold;
+    font-size: 2vw;
+}
+.block2{
+    display: flex;
+ flex-direction: column;
+ 
+}
+.block2 button{
+    background-color: orangered;
+    border: none;
+    border-radius: 17px;
+    height: 34px;
+    width: 102px;
+    color: aliceblue;
+
+}
+
+.block2 button:hover{
+    color: yellow;
+    box-shadow: 4px 4px 8px 0px #888888;
+    
+}

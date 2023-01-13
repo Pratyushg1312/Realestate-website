@@ -1,0 +1,6 @@
+.header{
+    background: rgb(255, 255, 255);
+    height: 5vw;
+    display: flex;
+    box-shadow:0 0 8px #240101;
+}

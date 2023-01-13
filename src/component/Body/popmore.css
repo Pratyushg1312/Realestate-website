@@ -1,0 +1,105 @@
+.popmoredetail{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+    overflow: scroll;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.propprofile{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+.propprofile img {
+    height: 21rem;
+    border-radius: 5px;
+
+}
+.innnerrr{
+    position: relative;
+    display: flex;
+   flex-direction: column;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 4px 20px 20px #00000029;
+}
+.popmoredetail .closebtn{
+            display: block;
+            width: max-content;
+            float: right;
+}
+.pname{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(240, 38, 2);
+}
+.location1{
+  position: absolute;
+    background-color: rgba(0, 0, 0, 0.459);
+    top:21rem;
+    right:7rem;
+  border-radius: 20px;
+  color: rgb(255, 255, 255);
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom:5px ;
+  padding-top:5px ;
+}
+.qcon1{
+    color: coral;
+}
+.qcon{
+    color: grey;
+}
+.quickview{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.line{
+    background-color: rgb(201, 200, 200);
+    width: 1px;
+    height: 25px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.reqnowner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.request{
+    background-color: orangered;
+    border: none;
+    border-radius: 17px;
+    height: 34px;
+    width: 102px;
+    color: aliceblue;
+}
+.request:hover{
+    background-color: green;
+    box-shadow: 4px 4px 8px 0px #888888;
+}
+
+.ownname{
+    font-weight: bold;
+}
+.tagg{
+    font-weight: lighter;
+}

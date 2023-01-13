@@ -1,0 +1,39 @@
+.userinfo{
+    width: 20vw;
+    
+    display: flex;
+    background-color: #D24D4D;
+   padding-left: 4px;
+   padding-right: 4px;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.profile{
+    display: flex;
+    flex-wrap:wrap ;
+    justify-content: center;
+    align-items: center;
+    padding: 2px;
+}
+
+.profile img{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+.profile p{
+    font-size: 1rem;
+    font-weight: bold;
+    color: aliceblue;
+    margin: 3px;
+    margin-left: 7px;
+}
+
+#logof{
+    
+    height: 3vw;
+    cursor: pointer;
+}

@@ -1,0 +1,37 @@
+.popreqchk{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    
+    overflow: scroll;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.innerrr{
+    overflow-y:scroll;
+    position: relative;
+    display: flex;
+  flex-direction: column;
+    padding: 32px;
+    width: 100%;
+    max-width: 640px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 3px 4px 20px 20px #00000029;
+}
+.innerrr .closebtn{
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+.boxcon .accept{
+    background-image: linear-gradient(to right, #297005 0%, #079a02  51%, #2fff86  100%);
+}
+.boxcon .reject{
+    background-image: linear-gradient(to right, #a92106 0%, #DD2476  51%, #f93109  100%);
+}

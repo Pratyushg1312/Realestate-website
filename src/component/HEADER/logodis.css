@@ -1,0 +1,34 @@
+
+.logodis{
+    background-color: #D24D4D;
+ 
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logodis img{
+    height: 3vw;
+}
+.logodis h1{
+    color: #c4a556;
+    font-size:3vw;
+    text-shadow: none;
+
+}
+/* Goals - short term objective set for specific duties or task in your current job position  */
+/* performance goals are departmrntal goals and organizational golas */
+/* types of performance goals */
+/* #productivity goals
+    # eduction goals
+    #Eficiency goals
+    #communication goals
+    creativity and ps
+    documentation
+    program mentainance 
+    leadership
+    timemanagement
+    safety and compliance
+    project management
+
+*/

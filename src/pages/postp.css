@@ -1,0 +1,54 @@
+.formprop{
+    display: block;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+form{
+    padding: 10px;
+    display:flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+.personald ,.locationn ,.features {
+    display:flex;
+    flex-direction: column;
+    justify-content:center ;
+}
+form input{
+    
+    border-color: #f43914;
+    border-bottom:1;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    outline: none;
+    border-radius: 2px;
+    margin: 10px;
+}
+#sub{
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+            margin: 10px;
+            padding: 10px 35px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            box-shadow: 0 0 20px rgb(61, 61, 61);
+            border-radius: 10px;
+            border: none;
+           
+            display: block;
+}
+#sub:hover{
+    background-position: right center; /* change the direction of the change here */
+    color: #fff;
+    text-decoration: none;
+}
+
+.errmsg1{
+    
+    justify-content: center;
+   
+}

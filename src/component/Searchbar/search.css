@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Damion&display=swap');
+.search{
+    display: flex;
+    flex-direction: column;
+
+}
+.note{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+.note span{
+    font-family: Damion,Helvetica,Arial,sans-serif;
+    font-size: 48px;
+}
+.note p{
+    font-size: 40px;
+}
+.note p,span{
+    color: #d24d2d;
+   
+}
+.sebar{
+    justify-content: center;
+   display:flex;
+}
+.oval{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    height: 65px;
+    width: 44vw; 
+    border-radius: 60px;
+    padding: 3px;
+    border: 2px solid #d24d2d;
+   
+}
+.oval img{
+        height: 25px;
+} 
+.oval form{display: flex;
+flex-direction: row;
+gap: 20px;
+}
+.proptyp,.location,.budget{
+    display:flex;
+    align-items: center;
+}
+.srchbtn{
+    border-radius: 50%;
+    background-image: linear-gradient(to right, #FF512F 0%, #DD2476  51%, #FF512F  100%);
+            margin: 10px;
+            padding: 10px 35px;
+            text-align: center;
+            text-transform: uppercase;
+            transition: 0.5s;
+            background-size: 200% auto;
+            color: white;            
+            
+            border-radius: 40px;
+            border: none;
+           
+            display: block;
+}
+
+.srchbtn:hover{
+    background-position: right center; /* change the direction of the change here */
+            color: #fff;
+            text-decoration: none;
+            box-shadow: 0 0 20px rgb(61, 61, 61);
+}
+.selectform{
+     border: transparent;
+}
