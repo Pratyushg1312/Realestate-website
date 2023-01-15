@@ -25,7 +25,7 @@ function App() {
 
   return (
     <>
-    <Router>
+    <Router basename='/Realestate-website'>
       <Routes>
         <Route path="/" element={<ProtectesRoute>
     <Header/>
@@ -46,7 +46,7 @@ function App() {
        
         
 
-        <Route exact path="/home" element={<Home />} />
+        <Route exact path="/Realestate-website" element={<Home />} />
         <Route exact path="/login" element={<Login />} />
         <Route exact path="/Signup" element={<Signup />} />
         <Route exact path="/post" element={<Postpp />} />

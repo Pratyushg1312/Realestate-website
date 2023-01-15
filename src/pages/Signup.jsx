@@ -49,7 +49,7 @@ uploadTask.on(
         photoURL: downloadURL,
       });
       // await setDoc(doc(db, "usersChats", res.user.uid),{});
-      navigate("/");
+      navigate("/Realestate-website");
     });
   }
   
